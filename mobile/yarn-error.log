@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Dart\dart-sdk\bin;C:\xampp\php;C:\composer;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Python\Python39\Scripts\;C:\Python\Python39\;C:\Users\jessicamenezes\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\bin;C:\Users\jessicamenezes\AppData\Local\Android\Sdk;C:\Program Files\Android\Android Studio\jre;C:\Users\jessicamenezes\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\.pub-cache\bin;C:\Users\jessicamenezes\AppData\Roaming\Composer\vendor\bin;C:\Users\jessicamenezes\AppData\Local\Yarn\bin;C:\Users\jessicamenezes\AppData\Roaming\npm;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\emulator;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\tools;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\tools\bin;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\platform-tools;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\platform-tools;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\tools\bin;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\tools;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\platform-tools;C:\Users\jessicamenezes\AppData\Local\Android\Sdk\emulator;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:420:28)
+      at ClientRequest.emit (events.js:314:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:774:9)
+      at Object.onceWrapper (events.js:420:28)
+      at TLSSocket.emit (events.js:326:22)
+      at TLSSocket.Socket._onTimeout (net.js:482:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "^0.1.6",
+      "axios": "^0.19.2",
+      "expo": "~36.0.0",
+      "expo-localization": "~8.0.0",
+      "expo-location": "~8.0.0",
+      "react": "~16.9.0",
+      "react-dom": "~16.9.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.5.0",
+      "react-native-maps": "0.26.1",
+      "react-native-reanimated": "~1.4.0",
+      "react-native-safe-area-context": "^0.6.2",
+      "react-native-screens": "2.0.0-alpha.12",
+      "react-native-web": "~0.11.7",
+      "react-native-webview": "7.4.3",
+      "react-navigation": "^4.0.10",
+      "react-navigation-stack": "^2.0.15",
+      "socket.io-client": "^2.3.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "~8.0.0",
+      "@babel/core": "^7.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
